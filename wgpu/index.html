@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WGPU Point Cloud</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            /* remove the default margin          */
+            height: 100%;
+            /* make the html,body fill the page   */
+        }
+
+        canvas {
+            display: block;
+            /* set internal canvas texture dimensions */
+            width: 1920px;
+            height: 1080px;
+        }
+
+        #info {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 0.5em;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.166.1/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.166.1/examples/jsm/",
+          "wgpu-matrix": "https://wgpu-matrix.org/dist/3.x/wgpu-matrix.module.js"
+        }
+      }
+    </script>
+</head>
+
+<body>
+    <canvas id="canvas" width="1920" height="1080"></canvas>
+    <pre id="info"></pre>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
