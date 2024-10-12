@@ -1,1 +1,1 @@
-# Point-Cloud: Software-Rasterization
+# Point-Cloud: Software Rasterization
