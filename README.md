@@ -13,7 +13,9 @@ Run `data-generator/index.html` in the browser to generate Fibonacci spheres of 
 
 ## Rendering
 
-To launch the various WebGPU implementation, including the compute-based software rasterization approach run `wgpu/index.html` in the browser with the following query parameters:
+### WebGPU
+
+To launch the various WebGPU implementations, including the compute-based software rasterization approach run `wgpu/index.html` in the browser with the following query parameters:
 
 `loadPath`: path to `.drc` data to be loaded<br>
 `pipeline`: "points", "quads" or "compute"<br>
@@ -24,7 +26,7 @@ To launch the various WebGPU implementation, including the compute-based softwar
 `repaint`: number of times the same geometry is redrawn within a single frame, useful for performance testing with large numbers of points<br>
 `size`: size of points, only effective with "quads" pipeline option (**\***)<br>
 
-***
+### Three.js
 
 To launch the Three.js implementation run `three/index.html` in the browser with the following query parameters:
 
