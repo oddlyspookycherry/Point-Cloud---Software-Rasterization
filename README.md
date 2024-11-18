@@ -4,6 +4,8 @@
 
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/e9a2a0ac-b86c-4a8e-8db3-cc48f66dacf4">
 
+<br>
+<br>
 
 This project implements compute-based point cloud rendering using software rasterization techniques in WebGPU, and compares it with traditional rendering approaches as implemented in [Three.js](https://threejs.org/) and other [WebGPU implementations](https://webgpu.github.io/webgpu-samples/?sample=points). Based on [research](https://github.com/m-schuetz/compute_rasterizer?tab=readme-ov-file) of Markus Schütz.
 
